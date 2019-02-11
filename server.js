@@ -10,6 +10,9 @@ var PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// STATIC DATA ROUTE
+app.use(express.static(path.join(__dirname, 'app')));
+
 // ROUTER
 require(path.join(__dirname, "app/routing/apiRoutes"))(app);
 require(path.join(__dirname, "app/routing/htmlRoutes"))(app);
