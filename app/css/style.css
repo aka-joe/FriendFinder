@@ -5,6 +5,7 @@ body {
 }
 
 .jumbotron {
+    width: 640px;
     padding: 50px 50px 20px;
     position: absolute;
     top: 50%;
@@ -16,4 +17,52 @@ body {
 #footer {
     margin: 50px 0 0 0;
     font-size: 12px;
+}
+
+.btn-scale {
+    min-width: 44px;
+    width: 6%;
+    text-align: center;
+    color: black;
+}
+
+.btn-scale:hover,.btn-scale:focus {
+    background-color: #b71c1c;
+    color: white;
+    font-weight: bold;
+}
+  
+.btn-scale-desc-1 {
+    background-color: #ffcdd2;
+}
+
+.btn-scale-desc-2 {
+    background-color: #ef9a9a;
+}
+
+.btn-scale-desc-3 {
+    background-color: #e57373;
+}
+
+.btn-scale-desc-4 {
+    background-color: #ef5350;
+}
+
+.btn-scale-desc-5 {
+    background-color: #f44336;
+}
+  
+@media screen and (max-width: 700px) {
+    @keyframes resize {
+        from {padding: 50px 50px 20px;  
+            width: 640px;}
+        to {padding: 50px 20px 20px;  
+            width: 90%;}
+    }
+    .jumbotron {
+        animation-name: resize;
+        animation-duration: .5s;
+        padding: 50px 20px 20px;  
+        width: 90%;
+    }
 }
