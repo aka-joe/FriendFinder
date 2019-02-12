@@ -11,7 +11,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8)
+    background-color: rgba(255, 255, 255, 0.75)
 }
 
 #footer {
@@ -20,10 +20,11 @@ body {
 }
 
 .btn-scale {
-    min-width: 44px;
-    width: 6%;
+    width: 44px;
+    height: 48px;
     text-align: center;
     color: black;
+    border-radius: 0;
 }
 
 .btn-scale:hover,.btn-scale:focus {
@@ -31,25 +32,43 @@ body {
     color: white;
     font-weight: bold;
 }
-  
-.btn-scale-desc-1 {
+
+.btn-1 {
     background-color: #ffcdd2;
 }
 
-.btn-scale-desc-2 {
+.btn-2 {
     background-color: #ef9a9a;
 }
 
-.btn-scale-desc-3 {
+.btn-3 {
     background-color: #e57373;
 }
 
-.btn-scale-desc-4 {
+.btn-4 {
     background-color: #ef5350;
 }
 
-.btn-scale-desc-5 {
+.btn-5 {
     background-color: #f44336;
+}
+
+.side-btn {
+    font-size: 12px;
+    height: 48px;
+    text-align:center;
+}
+
+.agree {
+    background-color: #f33525;
+    border-radius: 0 20px 20px 0;
+    cursor: e-resize !important;
+}
+
+.disagree {
+    background-color: #ffebee;
+    border-radius: 20px 0 0 20px;
+    cursor: w-resize !important;
 }
   
 @media screen and (max-width: 700px) {
@@ -64,5 +83,13 @@ body {
         animation-duration: .5s;
         padding: 50px 20px 20px;  
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .side-btn {
+        padding: 8px 0;
+        font-size: 10px;
+        width: 44px;
     }
 }
