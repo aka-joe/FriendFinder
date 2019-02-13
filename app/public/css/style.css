@@ -70,16 +70,18 @@ body {
     border-radius: 20px 0 0 20px;
     cursor: w-resize !important;
 }
-  
+
+/* Mobile responsive */
+
 @media screen and (max-width: 700px) {
-    @keyframes resize {
+    @keyframes resize1 {
         from {padding: 50px 50px 20px;  
             width: 640px;}
         to {padding: 50px 20px 20px;  
             width: 90%;}
     }
     .jumbotron {
-        animation-name: resize;
+        animation-name: resize1;
         animation-duration: .5s;
         padding: 50px 20px 20px;  
         width: 90%;
@@ -87,6 +89,15 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+    @keyframes resize2 {
+        from {width: 90%;}
+        to {width: 100%;}
+    }
+    .jumbotron {
+        animation-name: resize2;
+        animation-duration: .5s;
+        width: 100%;
+    }
     .side-btn {
         padding: 8px 0;
         font-size: 10px;
