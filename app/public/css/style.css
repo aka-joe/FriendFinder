@@ -93,10 +93,19 @@ body {
         from {width: 90%;}
         to {width: 100%;}
     }
+    @keyframes resize3 {
+        from {font-size: 20px;}
+        to {font-size: 16px;}
+    }
     .jumbotron {
         animation-name: resize2;
         animation-duration: .5s;
         width: 100%;
+    }
+    h4, h5 {
+        animation-name: resize3;
+        animation-duration: .5s;
+        font-size: 16px;
     }
     .side-btn {
         padding: 8px 0;
