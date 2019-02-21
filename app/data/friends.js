@@ -1,19 +1,51 @@
 // DATA
 var friendsData = [
     {
-        "name": "Ahmed",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Kevin Bacon",
+        "photo": "https://media.giphy.com/media/w9mHi4xjefrAwpDJAT/giphy.gif",
         "scores": [
             5,
-            1,
-            4,
-            4,
             5,
-            1,
-            2,
             5,
-            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+        ]
+    },
+    {
+        "name": "AJ McLean",
+        "photo": "https://media.giphy.com/media/wJiFG3sSO8mNtdeZSQ/giphy.gif",
+        "scores": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
             1
+        ]
+    },
+    {
+        "name": "Stephen Curry",
+        "photo": "https://media.giphy.com/media/RkHrWisiSsQ5SRMBjH/giphy.gif",
+        "scores": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
         ]
     }
 ];

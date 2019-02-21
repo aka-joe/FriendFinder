@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,125 +30,134 @@
                 <i class="fas fa-user-check"></i> Submit</button>
         </div>
 
-        <div id="question1" hidden>
+        <div id="question1">
             <h3><strong>Question 1</strong></h3><br>
             <h5>Your mind is always buzzing with<br>unexplored ideas and plans.</h5><br>
             <div class="btn side-btn disagree">Strongly<br>Disagree
-            </div><button id="btn-1-1" class="btn btn-scale btn-1">1
-            </button><button id="btn-1-2" class="btn btn-scale btn-2">2
-            </button><button id="btn-1-3" class="btn btn-scale btn-3">3
-            </button><button id="btn-1-4" class="btn btn-scale btn-4">4
-            </button><button id="btn-1-5" class="btn btn-scale btn-5">5
+            </div><button id="btn-1-1" class="btn btn-scale btn-1" value="1">1
+            </button><button id="btn-1-2" class="btn btn-scale btn-2" value="2">2
+            </button><button id="btn-1-3" class="btn btn-scale btn-3" value="3">3
+            </button><button id="btn-1-4" class="btn btn-scale btn-4" value="4">4
+            </button><button id="btn-1-5" class="btn btn-scale btn-5" value="5">5
             </button><div class="btn side-btn agree">Strongly<br>Agree</div>
         </div>
 
-        <div id="question2" hidden>
+        <div id="question2">
             <h3><strong>Question 2</strong></h3><br>
             <h5>Generally speaking, you rely more on<br>your experience than your imagination.</h5><br>
             <div class="btn side-btn disagree">Strongly<br>Disagree
-            </div><button id="btn-2-1" class="btn btn-scale btn-1">1
-            </button><button id="btn-2-2" class="btn btn-scale btn-2">2
-            </button><button id="btn-2-3" class="btn btn-scale btn-3">3
-            </button><button id="btn-2-4" class="btn btn-scale btn-4">4
-            </button><button id="btn-2-5" class="btn btn-scale btn-5">5
+            </div><button id="btn-2-1" class="btn btn-scale btn-1" value="1">1
+            </button><button id="btn-2-2" class="btn btn-scale btn-2" value="2">2
+            </button><button id="btn-2-3" class="btn btn-scale btn-3" value="3">3
+            </button><button id="btn-2-4" class="btn btn-scale btn-4" value="4">4
+            </button><button id="btn-2-5" class="btn btn-scale btn-5" value="5">5
             </button><div class="btn side-btn agree">Strongly<br>Agree</div>
         </div>
 
-        <div id="question3" hidden>
+        <div id="question3">
             <h3><strong>Question 3</strong></h3><br>
             <h5>You find it easy to stay relaxed and<br>focused even when there is some pressure.</h5><br>
             <div class="btn side-btn disagree">Strongly<br>Disagree
-            </div><button id="btn-3-1" class="btn btn-scale btn-1">1
-            </button><button id="btn-3-2" class="btn btn-scale btn-2">2
-            </button><button id="btn-3-3" class="btn btn-scale btn-3">3
-            </button><button id="btn-3-4" class="btn btn-scale btn-4">4
-            </button><button id="btn-3-5" class="btn btn-scale btn-5">5
+            </div><button id="btn-3-1" class="btn btn-scale btn-1" value="1">1
+            </button><button id="btn-3-2" class="btn btn-scale btn-2" value="2">2
+            </button><button id="btn-3-3" class="btn btn-scale btn-3" value="3">3
+            </button><button id="btn-3-4" class="btn btn-scale btn-4" value="4">4
+            </button><button id="btn-3-5" class="btn btn-scale btn-5" value="5">5
             </button><div class="btn side-btn agree">Strongly<br>Agree</div>
         </div>
 
-        <div id="question4" hidden><br>
+        <div id="question4"><br>
             <h3><strong>Question 4</strong></h3><br>
             <h5>You rarely do something<br>just out of sheer curiosity.</h5><br>
             <div class="btn side-btn disagree">Strongly<br>Disagree
-            </div><button id="btn-4-1" class="btn btn-scale btn-1">1
-            </button><button id="btn-4-2" class="btn btn-scale btn-2">2
-            </button><button id="btn-4-3" class="btn btn-scale btn-3">3
-            </button><button id="btn-4-4" class="btn btn-scale btn-4">4
-            </button><button id="btn-4-5" class="btn btn-scale btn-5">5
+            </div><button id="btn-4-1" class="btn btn-scale btn-1" value="1">1
+            </button><button id="btn-4-2" class="btn btn-scale btn-2" value="2">2
+            </button><button id="btn-4-3" class="btn btn-scale btn-3" value="3">3
+            </button><button id="btn-4-4" class="btn btn-scale btn-4" value="4">4
+            </button><button id="btn-4-5" class="btn btn-scale btn-5" value="5">5
             </button><div class="btn side-btn agree">Strongly<br>Agree</div>
         </div>
 
-        <div id="question5" hidden><br>
+        <div id="question5"><br>
             <h3><strong>Question 5</strong></h3><br>
             <h5>People can rarely upset you.</h5><br>
             <div class="btn side-btn disagree">Strongly<br>Disagree
-            </div><button id="btn-5-1" class="btn btn-scale btn-1">1
-            </button><button id="btn-5-2" class="btn btn-scale btn-2">2
-            </button><button id="btn-5-3" class="btn btn-scale btn-3">3
-            </button><button id="btn-5-4" class="btn btn-scale btn-4">4
-            </button><button id="btn-5-5" class="btn btn-scale btn-5">5
+            </div><button id="btn-5-1" class="btn btn-scale btn-1" value="1">1
+            </button><button id="btn-5-2" class="btn btn-scale btn-2" value="2">2
+            </button><button id="btn-5-3" class="btn btn-scale btn-3" value="3">3
+            </button><button id="btn-5-4" class="btn btn-scale btn-4" value="4">4
+            </button><button id="btn-5-5" class="btn btn-scale btn-5" value="5">5
             </button><div class="btn side-btn agree">Strongly<br>Agree</div>
         </div>
 
-        <div id="question6" hidden><br>
+        <div id="question6"><br>
             <h3><strong>Question 6</strong></h3><br>
             <h5>It is often difficult for you to<br>relate to other people’s feelings.</h5><br>
             <div class="btn side-btn disagree">Strongly<br>Disagree
-            </div><button id="btn-6-1" class="btn btn-scale btn-1">1
-            </button><button id="btn-6-2" class="btn btn-scale btn-2">2
-            </button><button id="btn-6-3" class="btn btn-scale btn-3">3
-            </button><button id="btn-6-4" class="btn btn-scale btn-4">4
-            </button><button id="btn-6-5" class="btn btn-scale btn-5">5
+            </div><button id="btn-6-1" class="btn btn-scale btn-1" value="1">1
+            </button><button id="btn-6-2" class="btn btn-scale btn-2" value="2">2
+            </button><button id="btn-6-3" class="btn btn-scale btn-3" value="3">3
+            </button><button id="btn-6-4" class="btn btn-scale btn-4" value="4">4
+            </button><button id="btn-6-5" class="btn btn-scale btn-5" value="5">5
             </button><div class="btn side-btn agree">Strongly<br>Agree</div>
         </div>
 
-        <div id="question7" hidden><br>
+        <div id="question7"><br>
             <h3><strong>Question 7</strong></h3><br>
             <h5>In a discussion, truth should be more<br>important than people’s sensitivities.</h5><br>
             <div class="btn side-btn disagree">Strongly<br>Disagree
-            </div><button id="btn-7-1" class="btn btn-scale btn-1">1
-            </button><button id="btn-7-2" class="btn btn-scale btn-2">2
-            </button><button id="btn-7-3" class="btn btn-scale btn-3">3
-            </button><button id="btn-7-4" class="btn btn-scale btn-4">4
-            </button><button id="btn-7-5" class="btn btn-scale btn-5">5
+            </div><button id="btn-7-1" class="btn btn-scale btn-1" value="1">1
+            </button><button id="btn-7-2" class="btn btn-scale btn-2" value="2">2
+            </button><button id="btn-7-3" class="btn btn-scale btn-3" value="3">3
+            </button><button id="btn-7-4" class="btn btn-scale btn-4" value="4">4
+            </button><button id="btn-7-5" class="btn btn-scale btn-5" value="5">5
             </button><div class="btn side-btn agree">Strongly<br>Agree</div>
         </div>
 
-        <div id="question8" hidden>
+        <div id="question8">
             <h3><strong>Question 8</strong></h3><br>
             <h5>You rarely get carried away<br>by fantasies and ideas.</h5><br>
             <div class="btn side-btn disagree">Strongly<br>Disagree
-            </div><button id="btn-8-1" class="btn btn-scale btn-1">1
-            </button><button id="btn-8-2" class="btn btn-scale btn-2">2
-            </button><button id="btn-8-3" class="btn btn-scale btn-3">3
-            </button><button id="btn-8-4" class="btn btn-scale btn-4">4
-            </button><button id="btn-8-5" class="btn btn-scale btn-5">5
+            </div><button id="btn-8-1" class="btn btn-scale btn-1" value="1">1
+            </button><button id="btn-8-2" class="btn btn-scale btn-2" value="2">2
+            </button><button id="btn-8-3" class="btn btn-scale btn-3" value="3">3
+            </button><button id="btn-8-4" class="btn btn-scale btn-4" value="4">4
+            </button><button id="btn-8-5" class="btn btn-scale btn-5" value="5">5
             </button><div class="btn side-btn agree">Strongly<br>Agree</div>
         </div>
 
-        <div id="question9" hidden>
+        <div id="question9">
             <h3><strong>Question 9</strong></h3><br>
             <h5>You think that everyone’s views should be respected regardless of whether they are supported by facts or
                 not.</h5><br>
             <div class="btn side-btn disagree">Strongly<br>Disagree
-            </div><button id="btn-9-1" class="btn btn-scale btn-1">1
-            </button><button id="btn-9-2" class="btn btn-scale btn-2">2
-            </button><button id="btn-9-3" class="btn btn-scale btn-3">3
-            </button><button id="btn-9-4" class="btn btn-scale btn-4">4
-            </button><button id="btn-9-5" class="btn btn-scale btn-5">5
+            </div><button id="btn-9-1" class="btn btn-scale btn-1" value="1">1
+            </button><button id="btn-9-2" class="btn btn-scale btn-2" value="2">2
+            </button><button id="btn-9-3" class="btn btn-scale btn-3" value="3">3
+            </button><button id="btn-9-4" class="btn btn-scale btn-4" value="4">4
+            </button><button id="btn-9-5" class="btn btn-scale btn-5" value="5">5
             </button><div class="btn side-btn agree">Strongly<br>Agree</div>
         </div>
 
-        <div id="question10" hidden>
+        <div id="question10">
             <h3><strong>Question 10</strong></h3><br>
             <h5>You feel more energetic after<br>spending time with a group of people.</h5><br>
             <div class="btn side-btn disagree">Strongly<br>Disagree
-            </div><button id="btn-10-1" class="btn btn-scale btn-1">1
-            </button><button id="btn-10-2" class="btn btn-scale btn-2">2
-            </button><button id="btn-10-3" class="btn btn-scale btn-3">3
-            </button><button id="btn-10-4" class="btn btn-scale btn-4">4
-            </button><button id="btn-10-5" class="btn btn-scale btn-5">5
+            </div><button id="btn-10-1" class="btn btn-scale btn-1" value="1">1
+            </button><button id="btn-10-2" class="btn btn-scale btn-2" value="2">2
+            </button><button id="btn-10-3" class="btn btn-scale btn-3" value="3">3
+            </button><button id="btn-10-4" class="btn btn-scale btn-4" value="4">4
+            </button><button id="btn-10-5" class="btn btn-scale btn-5" value="5">5
             </button><div class="btn side-btn agree">Strongly<br>Agree</div>
+        </div>
+
+        <!-- RESULT -->
+        <div id="question11">
+            <h2><strong>Best Match</strong></h2>
+            <hr>
+            <h2 id="match-name"></h2>
+            <img id="match-img" src="" alt=""><br><br>
+            <a href="/" class="btn btn-danger btn-lg"><i class="fas fa-times-circle"></i> Close</a>
         </div>
 
         <div id="footer" class="table">
@@ -153,6 +166,20 @@
                 </div>
                 <div class="col-sm-6 text-muted">Copyright © 2019 <a href="https://www.github.com/aka-joe/FriendFinder"
                         target="_blank" class="text-muted">Joseph Ahn</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="titleCenter" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header mx-auto">
+                    <h4 class="modal-title text-center" id="titleCenter">Please fill out all fields<br>before submitting!</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-times-circle"></i> Close</button>
+                    </div>
             </div>
         </div>
     </div>
