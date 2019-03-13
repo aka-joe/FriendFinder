@@ -8,7 +8,7 @@ This is a compatibility-based "FriendFinder" application -- basically a dating a
 
 ### Demo
 
-[Click here to try app.](https://calm-ravine-34147.herokuapp.com/)
+[Click here to try app.](https://friendfinder-akajoe.herokuapp.com/)
 
 
 
